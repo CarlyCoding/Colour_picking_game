@@ -45,9 +45,9 @@ function App() {
       </div>
       
       <div className='Buttons'>
-        <button onClick={handleClick(colourOne)}>{colourOne}</button>
-        <button onClick={handleClick(colourTwo)}>{colourTwo}</button>
-        <button onClick={handleClick(colourThree)}>{colourThree}</button>
+        <button onClick={() => handleClick(colourOne)}>{colourOne}</button>
+        <button onClick={() => handleClick(colourTwo)}>{colourTwo}</button>
+        <button onClick={() => handleClick(colourThree)}>{colourThree}</button>
       </div>
       <span>{message}</span>
     </div>
