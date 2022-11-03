@@ -1,6 +1,6 @@
 import './App.css';
 import {useState} from 'react'
-import { color } from '@mui/system';
+
 
 function randomColour(){
   const source = ['0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'];
@@ -14,6 +14,10 @@ function randomColour(){
     result += source[Math.floor(Math.random() * (source.length-1))]
   }
   return `#${result}`
+}
+
+function reloadPage(){
+  window.location.reload();
 }
 
 function App() {
@@ -50,6 +54,9 @@ function App() {
         <button onClick={() => handleClick(colourThree)}>{colourThree}</button>
       </div>
       <span>{message}</span>
+      <div className='Reset'>
+        <button type='submit' onClick={reloadPage}> Play again!</button>
+      </div>
     </div>
   );
 }
