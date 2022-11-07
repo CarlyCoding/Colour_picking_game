@@ -12,6 +12,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: 'Lobster', cursive;
 }
 
 #Box{
@@ -27,10 +28,8 @@
   border-radius: 12px;
 }
 
-.Buttons{
-  margin-bottom: ;
-}
-
 .Reset button{
   border-radius: 12px;
+  margin-top: 30px;
+  padding: 1em;
 }
