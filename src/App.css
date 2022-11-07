@@ -1,7 +1,10 @@
+
+
 .App {
   text-align: center;
   width: 100vw;
   height: 100vh;
+  background-color: whitesmoke;
 }
 
 .App-header {
@@ -30,6 +33,15 @@
 
 .Reset button{
   border-radius: 12px;
-  margin-top: 30px;
+  margin-top: 40px;
   padding: 1em;
 }
+
+.ColourBox{
+  font-family: 'Lobster', cursive;
+}
+
+
+
+
+
