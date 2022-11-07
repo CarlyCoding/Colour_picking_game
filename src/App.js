@@ -16,6 +16,7 @@ function randomColour(){
   return `#${result}`
 }
 
+
 function reloadPage(){
   window.location.reload();
 }
@@ -40,7 +41,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1> Colour Guessing App! </h1>
+        <h1> Guess the colour! </h1>
       </header>
       <div className='ColourBox'>
         {/* Setting background colour dynamically, called in line styling */}
@@ -54,6 +55,7 @@ function App() {
         <button onClick={() => handleClick(colourThree)}>{colourThree}</button>
       </div>
       <span>{message}</span>
+      
       <div className='Reset'>
         <button type='submit' onClick={reloadPage}> Play again!</button>
       </div>

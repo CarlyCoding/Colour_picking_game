@@ -24,4 +24,13 @@
 
 .Buttons button{
   margin: 1rem;
+  border-radius: 12px;
+}
+
+.Buttons{
+  margin-bottom: ;
+}
+
+.Reset button{
+  border-radius: 12px;
 }
